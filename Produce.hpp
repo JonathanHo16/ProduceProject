@@ -15,6 +15,8 @@ private:
     double weight;
     struct date
         {
+            date();
+            date (int new_day, int new_month, int new_year);
             int day;
             int month;
             int year;
@@ -26,6 +28,10 @@ private:
     date expiry_date;
     bool compareDate(Produce::date other_date) const;
 public:
+    Produce ();
+    Produce(string new_name,  double new_weight, int new_day, int new_month, int new_year);
+
+
     string getName();
     double getWeight();
     Produce::date getDate();
