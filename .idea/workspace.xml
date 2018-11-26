@@ -12,8 +12,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5be96413-9fbb-423f-ba3e-030cfe9b66ae" name="Default Changelist" comment="enhanced produce base class">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ProduceProject.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ProduceProject.dir/DependInfo.cmake" afterDir="false" />
@@ -57,16 +55,16 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="cpp" value="892" />
-          <entry key="gitignore" value="75" />
+          <entry key="gitignore" value="77" />
           <entry key="hpp" value="1590" />
-          <entry key="txt" value="530" />
+          <entry key="txt" value="563" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CMakeLists.txt" value="25" />
           <entry key="ObjectiveC" value="2482" />
-          <entry key="PLAIN_TEXT" value="580" />
+          <entry key="PLAIN_TEXT" value="615" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.lifecycle.project">
@@ -101,7 +99,11 @@
       </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="19" lean-forward="true" selection-start-column="19" selection-end-column="19" />
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -157,12 +159,6 @@
               <item name="ProduceProject" type="b2602c69:ProjectViewProjectNode" />
               <item name="ProduceProject" type="462c0819:PsiDirectoryNode" />
               <item name="cmake-build-debug" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ProduceProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ProduceProject" type="462c0819:PsiDirectoryNode" />
-              <item name="cmake-build-debug" type="462c0819:PsiDirectoryNode" />
-              <item name="CMakeFiles" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -227,7 +223,7 @@
       <workItem from="1542844481038" duration="7000" />
       <workItem from="1543112093012" duration="2524000" />
       <workItem from="1543115644070" duration="4958000" />
-      <workItem from="1543252202673" duration="2435000" />
+      <workItem from="1543252202673" duration="2795000" />
     </task>
     <task id="LOCAL-00001" summary="Setup project">
       <created>1543114426501</created>
@@ -264,15 +260,28 @@
       <option name="project" value="LOCAL" />
       <updated>1543258528769</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="added git ignore">
+      <created>1543258767080</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1543258767080</updated>
+    </task>
+    <task id="LOCAL-00007" summary="fixed git ignore">
+      <created>1543258904037</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1543258904037</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10784000" />
+    <option name="totallyTimeSpent" value="11144000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-6" y="0" width="779" height="830" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.30790567" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -285,7 +294,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49966466" visible="true" weight="0.20600858" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49966466" weight="1.0" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50033534" side_tool="true" weight="0.66288954" />
       <window_info anchor="bottom" id="Version Control" order="10" show_stripe_button="false" />
       <window_info anchor="bottom" id="CMake" order="11" />
@@ -307,7 +316,9 @@
     <MESSAGE value="completed base class == operator" />
     <MESSAGE value="Added fall class and summer spring txt documents" />
     <MESSAGE value="enhanced produce base class" />
-    <option name="LAST_COMMIT_MESSAGE" value="enhanced produce base class" />
+    <MESSAGE value="added git ignore" />
+    <MESSAGE value="fixed git ignore" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixed git ignore" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://C:/Cygwin/usr/include/w32api/cdoex.h">
@@ -392,7 +403,11 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="19" lean-forward="true" selection-start-column="19" selection-end-column="19" />
+        </state>
+      </provider>
     </entry>
   </component>
 </project>
