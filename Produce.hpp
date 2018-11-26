@@ -20,10 +20,8 @@ private:
             int day;
             int month;
             int year;
-            bool operator==(date& other)
-            {
-                day == other.day && month == other.month && year == other.year;
-            }
+            bool operator==(date& other_date);
+
         };
     date expiry_date;
     bool compareDate(Produce::date other_date) const;
@@ -36,9 +34,6 @@ public:
     double getWeight();
     Produce::date getDate();
     bool operator==(Produce& other) const;
-
-
-
 
 };
 

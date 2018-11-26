@@ -33,3 +33,9 @@ bool Produce::operator==( Produce& other) const
 {
     name== other.getName() && weight == other.getWeight() &&  compareDate(other.getDate());
 }
+bool Produce::date::operator==(Produce::date& other_date)
+{
+    {
+        day == other_date.day && month == other_date.month && year == other_date.year;
+    }
+}
