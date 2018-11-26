@@ -80,6 +80,18 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/cygdrive/c/Users/Jonathan Ho/OneDrive/Documents/University/Term 1A/SYDE121 DigiComp/Assignment8/ProduceProject/FallProduce.cpp">
+			<Option target="ProduceProject"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Jonathan Ho/OneDrive/Documents/University/Term 1A/SYDE121 DigiComp/Assignment8/ProduceProject/FallProduce.hpp">
+			<Option target="ProduceProject"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Jonathan Ho/OneDrive/Documents/University/Term 1A/SYDE121 DigiComp/Assignment8/ProduceProject/Produce.cpp">
+			<Option target="ProduceProject"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Jonathan Ho/OneDrive/Documents/University/Term 1A/SYDE121 DigiComp/Assignment8/ProduceProject/Produce.hpp">
+			<Option target="ProduceProject"/>
+		</Unit>
 		<Unit filename="/cygdrive/c/Users/Jonathan Ho/OneDrive/Documents/University/Term 1A/SYDE121 DigiComp/Assignment8/ProduceProject/main.cpp">
 			<Option target="ProduceProject"/>
 		</Unit>

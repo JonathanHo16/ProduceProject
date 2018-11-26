@@ -71,7 +71,7 @@ CMAKE_BINARY_DIR = "/cygdrive/c/Users/Jonathan Ho/OneDrive/Documents/University/
 CMakeFiles/ProduceProject.dir/all:
 	$(MAKE) -f CMakeFiles/ProduceProject.dir/build.make CMakeFiles/ProduceProject.dir/depend
 	$(MAKE) -f CMakeFiles/ProduceProject.dir/build.make CMakeFiles/ProduceProject.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/cygdrive/c/Users/Jonathan Ho/OneDrive/Documents/University/Term 1A/SYDE121 DigiComp/Assignment8/ProduceProject/cmake-build-debug/CMakeFiles" --progress-num=1,2 "Built target ProduceProject"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/cygdrive/c/Users/Jonathan Ho/OneDrive/Documents/University/Term 1A/SYDE121 DigiComp/Assignment8/ProduceProject/cmake-build-debug/CMakeFiles" --progress-num=1,2,3,4 "Built target ProduceProject"
 .PHONY : CMakeFiles/ProduceProject.dir/all
 
 # Include target in all.
@@ -81,7 +81,7 @@ all: CMakeFiles/ProduceProject.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/ProduceProject.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/cygdrive/c/Users/Jonathan Ho/OneDrive/Documents/University/Term 1A/SYDE121 DigiComp/Assignment8/ProduceProject/cmake-build-debug/CMakeFiles" 2
+	$(CMAKE_COMMAND) -E cmake_progress_start "/cygdrive/c/Users/Jonathan Ho/OneDrive/Documents/University/Term 1A/SYDE121 DigiComp/Assignment8/ProduceProject/cmake-build-debug/CMakeFiles" 4
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/ProduceProject.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start "/cygdrive/c/Users/Jonathan Ho/OneDrive/Documents/University/Term 1A/SYDE121 DigiComp/Assignment8/ProduceProject/cmake-build-debug/CMakeFiles" 0
 .PHONY : CMakeFiles/ProduceProject.dir/rule

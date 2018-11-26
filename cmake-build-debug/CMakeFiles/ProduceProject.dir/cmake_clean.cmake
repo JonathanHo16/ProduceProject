@@ -1,5 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/ProduceProject.dir/main.cpp.o"
+  "CMakeFiles/ProduceProject.dir/Produce.cpp.o"
+  "CMakeFiles/ProduceProject.dir/FallProduce.cpp.o"
   "ProduceProject.pdb"
   "ProduceProject.exe"
   "libProduceProject.dll.a"

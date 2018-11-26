@@ -70,17 +70,47 @@ CMakeFiles/ProduceProject.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ProduceProject.dir/main.cpp.s"
 	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/cygdrive/c/Users/Jonathan Ho/OneDrive/Documents/University/Term 1A/SYDE121 DigiComp/Assignment8/ProduceProject/main.cpp" -o CMakeFiles/ProduceProject.dir/main.cpp.s
 
+CMakeFiles/ProduceProject.dir/Produce.cpp.o: CMakeFiles/ProduceProject.dir/flags.make
+CMakeFiles/ProduceProject.dir/Produce.cpp.o: ../Produce.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/cygdrive/c/Users/Jonathan Ho/OneDrive/Documents/University/Term 1A/SYDE121 DigiComp/Assignment8/ProduceProject/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/ProduceProject.dir/Produce.cpp.o"
+	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ProduceProject.dir/Produce.cpp.o -c "/cygdrive/c/Users/Jonathan Ho/OneDrive/Documents/University/Term 1A/SYDE121 DigiComp/Assignment8/ProduceProject/Produce.cpp"
+
+CMakeFiles/ProduceProject.dir/Produce.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ProduceProject.dir/Produce.cpp.i"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/cygdrive/c/Users/Jonathan Ho/OneDrive/Documents/University/Term 1A/SYDE121 DigiComp/Assignment8/ProduceProject/Produce.cpp" > CMakeFiles/ProduceProject.dir/Produce.cpp.i
+
+CMakeFiles/ProduceProject.dir/Produce.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ProduceProject.dir/Produce.cpp.s"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/cygdrive/c/Users/Jonathan Ho/OneDrive/Documents/University/Term 1A/SYDE121 DigiComp/Assignment8/ProduceProject/Produce.cpp" -o CMakeFiles/ProduceProject.dir/Produce.cpp.s
+
+CMakeFiles/ProduceProject.dir/FallProduce.cpp.o: CMakeFiles/ProduceProject.dir/flags.make
+CMakeFiles/ProduceProject.dir/FallProduce.cpp.o: ../FallProduce.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/cygdrive/c/Users/Jonathan Ho/OneDrive/Documents/University/Term 1A/SYDE121 DigiComp/Assignment8/ProduceProject/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/ProduceProject.dir/FallProduce.cpp.o"
+	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ProduceProject.dir/FallProduce.cpp.o -c "/cygdrive/c/Users/Jonathan Ho/OneDrive/Documents/University/Term 1A/SYDE121 DigiComp/Assignment8/ProduceProject/FallProduce.cpp"
+
+CMakeFiles/ProduceProject.dir/FallProduce.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ProduceProject.dir/FallProduce.cpp.i"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/cygdrive/c/Users/Jonathan Ho/OneDrive/Documents/University/Term 1A/SYDE121 DigiComp/Assignment8/ProduceProject/FallProduce.cpp" > CMakeFiles/ProduceProject.dir/FallProduce.cpp.i
+
+CMakeFiles/ProduceProject.dir/FallProduce.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ProduceProject.dir/FallProduce.cpp.s"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/cygdrive/c/Users/Jonathan Ho/OneDrive/Documents/University/Term 1A/SYDE121 DigiComp/Assignment8/ProduceProject/FallProduce.cpp" -o CMakeFiles/ProduceProject.dir/FallProduce.cpp.s
+
 # Object files for target ProduceProject
 ProduceProject_OBJECTS = \
-"CMakeFiles/ProduceProject.dir/main.cpp.o"
+"CMakeFiles/ProduceProject.dir/main.cpp.o" \
+"CMakeFiles/ProduceProject.dir/Produce.cpp.o" \
+"CMakeFiles/ProduceProject.dir/FallProduce.cpp.o"
 
 # External object files for target ProduceProject
 ProduceProject_EXTERNAL_OBJECTS =
 
 ProduceProject.exe: CMakeFiles/ProduceProject.dir/main.cpp.o
+ProduceProject.exe: CMakeFiles/ProduceProject.dir/Produce.cpp.o
+ProduceProject.exe: CMakeFiles/ProduceProject.dir/FallProduce.cpp.o
 ProduceProject.exe: CMakeFiles/ProduceProject.dir/build.make
 ProduceProject.exe: CMakeFiles/ProduceProject.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/cygdrive/c/Users/Jonathan Ho/OneDrive/Documents/University/Term 1A/SYDE121 DigiComp/Assignment8/ProduceProject/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ProduceProject.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/cygdrive/c/Users/Jonathan Ho/OneDrive/Documents/University/Term 1A/SYDE121 DigiComp/Assignment8/ProduceProject/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable ProduceProject.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/ProduceProject.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
