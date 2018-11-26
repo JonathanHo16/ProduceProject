@@ -3,4 +3,4 @@ project(ProduceProject)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(ProduceProject main.cpp Produce.cpp Produce.hpp)
+add_executable(ProduceProject main.cpp Produce.cpp Produce.hpp FallProduce.cpp FallProduce.hpp)
