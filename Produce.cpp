@@ -2,7 +2,9 @@
 // Created by Jonathan Ho on 2018-11-24.
 //
 
+#include <iostream>
 #include "Produce.hpp"
+using namespace std;
 
 Produce::date::date(): day(1), month(1), year(2000){}
 
@@ -38,4 +40,16 @@ bool Produce::date::operator==(Produce::date& other_date)
     {
         day == other_date.day && month == other_date.month && year == other_date.year;
     }
+}
+void Produce::print()
+{
+    cout << "Name: " << name << endl;
+    cout << "Weight: " << weight << endl;
+    expiry_date.print();
+
+
+}
+void Produce::date::print()
+{
+    cout << "Expiry date: " << month << " " << day <<" " << year << endl;
 }

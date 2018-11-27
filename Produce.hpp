@@ -10,7 +10,7 @@ using namespace std;
 
 
 class Produce {
-private:
+protected:
     string name;
     double weight;
     struct date
@@ -21,6 +21,7 @@ private:
             int month;
             int year;
             bool operator==(date& other_date);
+            void print();
 
         };
     date expiry_date;
@@ -34,6 +35,7 @@ public:
     double getWeight();
     Produce::date getDate();
     bool operator==(Produce& other) const;
+    void print();
 
 };
 
