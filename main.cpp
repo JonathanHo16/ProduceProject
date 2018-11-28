@@ -1,6 +1,6 @@
 #include <iostream>
-
+#include "FruitsAndVeggiesBox.hpp"
 int main() {
-    std::cout << "Hello, World!" << std::endl;
+    FruitsAndVeggiesBox::setAvailablitiyList();
     return 0;
 }

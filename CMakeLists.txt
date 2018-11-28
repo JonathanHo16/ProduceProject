@@ -3,4 +3,5 @@ project(ProduceProject)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(ProduceProject main.cpp Produce.cpp Produce.hpp SeasonalProduce.cpp SeasonalProduce.hpp)
+add_executable(ProduceProject main.cpp Produce.cpp Produce.hpp SeasonalProduce.cpp SeasonalProduce.hpp
+        FruitsAndVeggiesBox.cpp FruitsAndVeggiesBox.hpp)
