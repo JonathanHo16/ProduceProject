@@ -37,6 +37,7 @@ public:
     void fill_the_box(int current_month);
 
     static void setAvailablitiyList();
+    void print();
 };
 
 

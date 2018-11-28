@@ -316,3 +316,22 @@ int FruitsAndVeggiesBox::randMonth()
 {
     return rand()& 12 + 1;
 }
+void FruitsAndVeggiesBox::print()
+{
+    for (int i = 0; i < winter_box.size(); i++)
+    {
+        winter_box[i].print();
+    }
+    for (int i = 0; i < spring_box.size(); i++)
+    {
+        spring_box[i].print();
+    }
+    for (int i = 0; i < spring_box.size(); i++)
+    {
+        spring_box[i].print();
+    }
+    for (int i = 0; i < summer_box.size(); i++)
+    {
+        summer_box[i].print();
+    }
+}
