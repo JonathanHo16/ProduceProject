@@ -7,6 +7,8 @@
 #include <iostream>
 #include <vector>
 #include <algorithm>
+#include <iostream>
+
 
 FruitsAndVeggiesBox::FruitsAndVeggiesBox() : order_size(0)
 {
@@ -23,13 +25,13 @@ vector<string> FruitsAndVeggiesBox::summer_list;
 
 void FruitsAndVeggiesBox::setAvailablitiyList()
 {
-    cout << "function called\n";
+    //cout << "function called\n";
     ifstream my_ifstream;
     string curr_line;
     my_ifstream.open("../Fall.txt");
     if(!my_ifstream.fail())
     {
-        cout << "first filed opened\n";
+        //cout << "first filed opened\n";
         while (true)
         {
             if (my_ifstream.eof())
@@ -224,6 +226,7 @@ void FruitsAndVeggiesBox::subFill(vector<string> &season_list, int season, vecto
 }
 void FruitsAndVeggiesBox::fill (vector<string> &season_list, int season)
 {
+    cout << "Filled entered\n";
     string  produce_name;
     vector<int> used_names;
     switch (season)
@@ -282,11 +285,12 @@ void FruitsAndVeggiesBox::fill (vector<string> &season_list, int season)
 }
 int FruitsAndVeggiesBox::generate_number(vector<string> &name_list, vector<int> &used )
 {
+    cout << "Number generated entered\n";
     int index;
     while (true)
     {
         index = rand() % name_list.size();
-        if (find(used.begin(), used.end(), index) != used.end())
+        if (unique(index, used))
         {
             break;
         }
@@ -296,6 +300,7 @@ int FruitsAndVeggiesBox::generate_number(vector<string> &name_list, vector<int> 
         }
 
     }
+    cout << "Number generated\n";
     used.push_back(index);
     return index;
 }
@@ -318,20 +323,69 @@ int FruitsAndVeggiesBox::randMonth()
 }
 void FruitsAndVeggiesBox::print()
 {
+    cout << "Winter Items\n";
     for (int i = 0; i < winter_box.size(); i++)
     {
         winter_box[i].print();
     }
+    cout << "Spring Items\n";
     for (int i = 0; i < spring_box.size(); i++)
     {
         spring_box[i].print();
     }
-    for (int i = 0; i < spring_box.size(); i++)
-    {
-        spring_box[i].print();
-    }
+
+    cout << "Summer Items\n";
     for (int i = 0; i < summer_box.size(); i++)
     {
         summer_box[i].print();
     }
+    cout << "Fall Items\n";
+    for (int i = 0; i < fall_box.size(); i++)
+    {
+        fall_box[i].print();
+    }
+}
+void FruitsAndVeggiesBox::printLists()
+{
+    cout << "Winter availablity\n" ;
+    for ( int i = 0; i < winter_list.size(); i++)
+    {
+        cout << winter_list[i] << endl;
+    }
+
+    cout << endl;
+    cout << "Spring availablity\n" ;
+    for ( int i = 0; i < spring_list.size(); i++)
+    {
+        cout << spring_list[i] << endl;
+    }
+
+    cout << endl;
+
+    cout << "Summer availablity\n" ;
+    for ( int i = 0; i < summer_list.size(); i++)
+    {
+        cout << summer_list[i] << endl;
+    }
+
+    cout << endl;
+
+    cout << "Fall availablity\n" ;
+    for ( int i = 0; i < fall_list.size(); i++)
+    {
+        cout << fall_list[i] << endl;
+    }
+}
+bool FruitsAndVeggiesBox::unique(int number, vector<int> &used)
+{
+    int index = -1;
+    for (int i = 0; i < used.size(); i++)
+    {
+        if (used[i] == number)
+            index = i;
+    }
+    if (index == -1)
+        return true;
+    else
+        return false;
 }

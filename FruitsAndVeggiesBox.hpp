@@ -21,6 +21,7 @@ private:
     double generateWeight();
     int randDay();
     int randMonth();
+    bool unique(int number, vector<int> &used);
 public:
 
     int order_size;
@@ -38,6 +39,7 @@ public:
 
     static void setAvailablitiyList();
     void print();
+    static void printLists();
 };
 
 
